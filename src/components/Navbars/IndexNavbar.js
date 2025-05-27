@@ -77,14 +77,14 @@ export default function IndexNavbar() {
       <Container>
         <div className="navbar-translate">
 
+       
+
+          <NavbarBrand to="/" tag={Link} id="navbar-brand" >
           <img
             alt="..."
             className="path"
             style={{ width: 200, height: 200, borderRadius: 20 }}
-            src={require("../../assets/img/kanairo/Chisend.png")} />
-
-          <NavbarBrand to="/" tag={Link} id="navbar-brand" >
-
+            src={require("../../assets/img/kanairo/logo_safi.png")} />
 
             <span>Chisend </span>
 
@@ -113,7 +113,7 @@ export default function IndexNavbar() {
             <Row>
               <Col className="collapse-brand" xs="6">
                 <a href="/" className="h1-seo">
-                  Chisend
+                  Chise
                 </a>
               </Col>
               <Col className="collapse-close text-right" xs="6">
